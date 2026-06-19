@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 820" font-family="Inter, Arial, sans-serif">
+  <style>
+    .h    { font-size: 18px; font-weight: 700; fill: #111; }
+    .sub  { font-size: 13px; fill: #555; }
+    .pin  { font-size: 11px; fill: #fff; font-weight: 700; }
+    .lbl  { font-size: 12px; fill: #222; }
+    .note { font-size: 11px; fill: #777; }
+    .small{ font-size: 10px; fill: #fff; font-weight: 700; }
+    .pcb  { fill: #1f7a4b; stroke: #0e3f25; stroke-width: 2.5; rx: 14; }
+    .pad  { fill: #f4cf3a; stroke: #8a6a00; stroke-width: 1.3; }
+    .padX { fill: #444; stroke: #222; stroke-width: 1.3; }
+    .grp-dpad   { fill: #c34; }
+    .grp-bump   { fill: #2a4a8a; }
+    .grp-btn    { fill: #6a2a8a; }
+    .grp-stickL { fill: #b07a00; }
+    .grp-stickR { fill: #2a7a4a; }
+    .tag  { font-size: 11px; fill: #fff; font-weight: 700; }
+    .axis { font-size: 10px; fill: #cce; font-weight: 700; }
+  </style>
+
+  <rect width="1000" height="820" fill="#fafafa"/>
+  <text x="500" y="34" text-anchor="middle" class="h">Adafruit Feather M4 Express - Pinmap fuer 20-Switch Gamepad</text>
+  <text x="500" y="56" text-anchor="middle" class="sub">2 Sticks, D-Pad, 4 Bumpers, 4 Action-Buttons. Alle Pins belegt.</text>
+
+  <!-- ====== BOARD ====== -->
+  <rect x="300" y="92" width="400" height="640" class="pcb"/>
+  <text x="500" y="124" text-anchor="middle" fill="#fff" class="h">FEATHER M4 EXPRESS</text>
+  <text x="500" y="144" text-anchor="middle" fill="#cfe9d8" class="sub">SAMD51 . TinyUSB . HID Gamepad</text>
+
+  <!-- USB-Buchse oben -->
+  <rect x="470" y="80" width="60" height="20" fill="#999" stroke="#444" stroke-width="1.5" rx="3"/>
+  <text x="500" y="76" text-anchor="middle" class="note">USB-C</text>
+
+  <!-- Reset Knopf -->
+  <circle cx="340" cy="108" r="6" fill="#cc2222" stroke="#660000"/>
+  <text x="340" y="76" text-anchor="middle" class="note">RST</text>
+
+  <!-- ====== LINKE PINS (16 Stueck), y=180..630 ====== -->
+  <!-- Reihen-Abstand 30px -->
+
+  <g id="left-side">
+    <!-- RST (Pad) -->
+    <circle cx="300" cy="180" r="9" class="padX"/><text x="300" y="184" text-anchor="middle" class="pin">R</text>
+    <text x="284" y="184" text-anchor="end" class="lbl">RST</text>
+
+    <!-- 3.3V -->
+    <circle cx="300" cy="210" r="9" class="padX"/><text x="300" y="214" text-anchor="middle" class="pin">3V</text>
+    <text x="284" y="214" text-anchor="end" class="lbl">3.3V</text>
+
+    <!-- AREF -->
+    <circle cx="300" cy="240" r="9" class="padX"/><text x="300" y="244" text-anchor="middle" class="pin">AR</text>
+    <text x="284" y="244" text-anchor="end" class="lbl">AREF</text>
+
+    <!-- GND -->
+    <circle cx="300" cy="270" r="9" class="padX"/><text x="300" y="274" text-anchor="middle" class="pin">G</text>
+    <text x="284" y="274" text-anchor="end" class="lbl">GND  &lt;== gemeinsame Masse</text>
+
+    <!-- A0 -> R2 -->
+    <circle cx="300" cy="300" r="9" class="pad"/><text x="300" y="304" text-anchor="middle" class="pin">A0</text>
+    <g><rect x="140" y="290" width="146" height="20" rx="4" class="grp-bump"/>
+       <text x="213" y="304" text-anchor="middle" class="tag">R2  (Bumper)</text></g>
+
+    <!-- A1 -> Btn 1 -->
+    <circle cx="300" cy="330" r="9" class="pad"/><text x="300" y="334" text-anchor="middle" class="pin">A1</text>
+    <g><rect x="140" y="320" width="146" height="20" rx="4" class="grp-btn"/>
+       <text x="213" y="334" text-anchor="middle" class="tag">Btn 1  (A)</text></g>
+
+    <!-- A2 -> Btn 2 -->
+    <circle cx="300" cy="360" r="9" class="pad"/><text x="300" y="364" text-anchor="middle" class="pin">A2</text>
+    <g><rect x="140" y="350" width="146" height="20" rx="4" class="grp-btn"/>
+       <text x="213" y="364" text-anchor="middle" class="tag">Btn 2  (B)</text></g>
+
+    <!-- A3 -> Btn 3 -->
+    <circle cx="300" cy="390" r="9" class="pad"/><text x="300" y="394" text-anchor="middle" class="pin">A3</text>
+    <g><rect x="140" y="380" width="146" height="20" rx="4" class="grp-btn"/>
+       <text x="213" y="394" text-anchor="middle" class="tag">Btn 3  (X)</text></g>
+
+    <!-- A4 -> Btn 4 -->
+    <circle cx="300" cy="420" r="9" class="pad"/><text x="300" y="424" text-anchor="middle" class="pin">A4</text>
+    <g><rect x="140" y="410" width="146" height="20" rx="4" class="grp-btn"/>
+       <text x="213" y="424" text-anchor="middle" class="tag">Btn 4  (Y)</text></g>
+
+    <!-- A5 -> L-Stick UP -->
+    <circle cx="300" cy="450" r="9" class="pad"/><text x="300" y="454" text-anchor="middle" class="pin">A5</text>
+    <g><rect x="140" y="440" width="146" height="20" rx="4" class="grp-stickL"/>
+       <text x="195" y="454" text-anchor="middle" class="tag">L Stick UP</text>
+       <text x="275" y="454" text-anchor="end" class="axis">Y-</text></g>
+
+    <!-- SCK -> L-Stick RIGHT -->
+    <circle cx="300" cy="480" r="9" class="pad"/><text x="300" y="484" text-anchor="middle" class="small">SCK</text>
+    <g><rect x="140" y="470" width="146" height="20" rx="4" class="grp-stickL"/>
+       <text x="195" y="484" text-anchor="middle" class="tag">L Stick RIGHT</text>
+       <text x="275" y="484" text-anchor="end" class="axis">X+</text></g>
+
+    <!-- MOSI -> L-Stick LEFT -->
+    <circle cx="300" cy="510" r="9" class="pad"/><text x="300" y="514" text-anchor="middle" class="small">MO</text>
+    <g><rect x="140" y="500" width="146" height="20" rx="4" class="grp-stickL"/>
+       <text x="195" y="514" text-anchor="middle" class="tag">L Stick LEFT</text>
+       <text x="275" y="514" text-anchor="end" class="axis">X-</text></g>
+
+    <!-- MISO -> L-Stick DOWN -->
+    <circle cx="300" cy="540" r="9" class="pad"/><text x="300" y="544" text-anchor="middle" class="small">MI</text>
+    <g><rect x="140" y="530" width="146" height="20" rx="4" class="grp-stickL"/>
+       <text x="195" y="544" text-anchor="middle" class="tag">L Stick DOWN</text>
+       <text x="275" y="544" text-anchor="end" class="axis">Y+</text></g>
+
+    <!-- RX (D0) -> R-Stick UP -->
+    <circle cx="300" cy="570" r="9" class="pad"/><text x="300" y="574" text-anchor="middle" class="pin">RX</text>
+    <g><rect x="140" y="560" width="146" height="20" rx="4" class="grp-stickR"/>
+       <text x="195" y="574" text-anchor="middle" class="tag">R Stick UP</text>
+       <text x="275" y="574" text-anchor="end" class="axis">Rz-</text></g>
+
+    <!-- TX (D1) -> R-Stick LEFT -->
+    <circle cx="300" cy="600" r="9" class="pad"/><text x="300" y="604" text-anchor="middle" class="pin">TX</text>
+    <g><rect x="140" y="590" width="146" height="20" rx="4" class="grp-stickR"/>
+       <text x="195" y="604" text-anchor="middle" class="tag">R Stick LEFT</text>
+       <text x="275" y="604" text-anchor="end" class="axis">Z-</text></g>
+  </g>
+
+  <!-- ====== RECHTE PINS, y=180..600 ====== -->
+  <g id="right-side">
+    <!-- BAT -->
+    <circle cx="700" cy="180" r="9" class="padX"/><text x="700" y="184" text-anchor="middle" class="pin">B</text>
+    <text x="716" y="184" class="lbl">BAT</text>
+
+    <!-- EN -->
+    <circle cx="700" cy="210" r="9" class="padX"/><text x="700" y="214" text-anchor="middle" class="pin">E</text>
+    <text x="716" y="214" class="lbl">EN</text>
+
+    <!-- USB-Pin -->
+    <circle cx="700" cy="240" r="9" class="padX"/><text x="700" y="244" text-anchor="middle" class="pin">U</text>
+    <text x="716" y="244" class="lbl">USB</text>
+
+    <!-- D13 -> L2 -->
+    <circle cx="700" cy="270" r="9" class="pad"/><text x="700" y="274" text-anchor="middle" class="pin">13</text>
+    <g><rect x="714" y="260" width="146" height="20" rx="4" class="grp-bump"/>
+       <text x="787" y="274" text-anchor="middle" class="tag">L2  (Bumper)</text></g>
+
+    <!-- D12 -> R1 -->
+    <circle cx="700" cy="300" r="9" class="pad"/><text x="700" y="304" text-anchor="middle" class="pin">12</text>
+    <g><rect x="714" y="290" width="146" height="20" rx="4" class="grp-bump"/>
+       <text x="787" y="304" text-anchor="middle" class="tag">R1  (Bumper)</text></g>
+
+    <!-- D11 -> L1 -->
+    <circle cx="700" cy="330" r="9" class="pad"/><text x="700" y="334" text-anchor="middle" class="pin">11</text>
+    <g><rect x="714" y="320" width="146" height="20" rx="4" class="grp-bump"/>
+       <text x="787" y="334" text-anchor="middle" class="tag">L1  (Bumper)</text></g>
+
+    <!-- D10 -> D-Pad RIGHT -->
+    <circle cx="700" cy="360" r="9" class="pad"/><text x="700" y="364" text-anchor="middle" class="pin">10</text>
+    <g><rect x="714" y="350" width="146" height="20" rx="4" class="grp-dpad"/>
+       <text x="787" y="364" text-anchor="middle" class="tag">D-Pad RIGHT</text></g>
+
+    <!-- D9 -> D-Pad DOWN -->
+    <circle cx="700" cy="390" r="9" class="pad"/><text x="700" y="394" text-anchor="middle" class="pin">9</text>
+    <g><rect x="714" y="380" width="146" height="20" rx="4" class="grp-dpad"/>
+       <text x="787" y="394" text-anchor="middle" class="tag">D-Pad DOWN</text></g>
+
+    <!-- D6 -> D-Pad LEFT -->
+    <circle cx="700" cy="420" r="9" class="pad"/><text x="700" y="424" text-anchor="middle" class="pin">6</text>
+    <g><rect x="714" y="410" width="146" height="20" rx="4" class="grp-dpad"/>
+       <text x="787" y="424" text-anchor="middle" class="tag">D-Pad LEFT</text></g>
+
+    <!-- D5 -> D-Pad UP -->
+    <circle cx="700" cy="450" r="9" class="pad"/><text x="700" y="454" text-anchor="middle" class="pin">5</text>
+    <g><rect x="714" y="440" width="146" height="20" rx="4" class="grp-dpad"/>
+       <text x="787" y="454" text-anchor="middle" class="tag">D-Pad UP</text></g>
+
+    <!-- SCL -> R-Stick RIGHT -->
+    <circle cx="700" cy="490" r="9" class="pad"/><text x="700" y="494" text-anchor="middle" class="small">SCL</text>
+    <g><rect x="714" y="480" width="146" height="20" rx="4" class="grp-stickR"/>
+       <text x="755" y="494" text-anchor="start" class="axis">Z+</text>
+       <text x="828" y="494" text-anchor="middle" class="tag">R Stick RIGHT</text></g>
+
+    <!-- SDA -> R-Stick DOWN -->
+    <circle cx="700" cy="520" r="9" class="pad"/><text x="700" y="524" text-anchor="middle" class="small">SDA</text>
+    <g><rect x="714" y="510" width="146" height="20" rx="4" class="grp-stickR"/>
+       <text x="755" y="524" text-anchor="start" class="axis">Rz+</text>
+       <text x="828" y="524" text-anchor="middle" class="tag">R Stick DOWN</text></g>
+  </g>
+
+  <!-- LED Hinweis -->
+  <text x="500" y="765" text-anchor="middle" class="note">Onboard-LED an D13 blinkt jetzt mit L2 mit - nicht stoerend, kein Eingriff noetig.</text>
+
+  <!-- Legende -->
+  <g transform="translate(80,790)">
+    <rect x="0"   y="-14" width="14" height="14" class="grp-dpad"/>  <text x="22" y="-2" class="lbl">D-Pad</text>
+    <rect x="80"  y="-14" width="14" height="14" class="grp-bump"/>  <text x="102" y="-2" class="lbl">Bumper</text>
+    <rect x="190" y="-14" width="14" height="14" class="grp-btn"/>   <text x="212" y="-2" class="lbl">Action-Button</text>
+    <rect x="340" y="-14" width="14" height="14" class="grp-stickL"/><text x="362" y="-2" class="lbl">Linker Stick</text>
+    <rect x="470" y="-14" width="14" height="14" class="grp-stickR"/><text x="492" y="-2" class="lbl">Rechter Stick</text>
+    <rect x="610" y="-14" width="14" height="14" class="padX"/>      <text x="632" y="-2" class="lbl">Power / nicht verkabelt</text>
+  </g>
+</svg>
