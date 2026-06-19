@@ -1,0 +1,139 @@
++
+
+  # Physical Computing
+
+  ## Embedded Programming
+
+  Licensed CC BY-SA 4.0,
+  @tamberg & @dusjagr
+
+
+  * Min res 56x16 char
+
++
+
+  # Material
+  
+  - Microcontroller board,
+    e.g. Feather M4 Express
+  - USB C to micro cable
+  - Half-sized breadboard
+
++
+
+  # Getting started
+
+  - Install Arduino IDE
+    Version 2.?.?
+
+
+  * https://www.arduino.cc/en/software/#ide
+
++
+
+  # Set up the board
+
+  - Preferences > Additional Boards Manager URL
+    https://adafruit.github.io/arduino-board-index/
+    package_adafruit_index.json
+  - Tools > Board > Boards Manager > 
+    Adafruit SAMD Boards
+  - Tools > Board > Adafruit M4 Feather Express
+  - Tools > Port > ...
+
+
+  * https://github.com/tamberg/fhnw-phycom/
+    wiki/Feather-M4-Express-Board
+
++
+
+  # Microcontroller
+
+  - Small computer
+  - Runs one program
+  - No operating system
+
++
+
+  # GPIO Pins
+
+  - Input or output
+  - Digital (1/0) or 
+    analog (1 .. 1024)
+  - M4 has 3.3V logic
+  - Check the pinout
+
+
+  * https://learn.adafruit.com/adafruit-
+    feather-m4-express-atsamd51/pinouts
+
++
+
+  # Blinking an LED
+
+  - File > Examples > Basics > Blink
+  - Search "Arduino LED circuit"
+  - Build circuit on breadboard,
+    use 1k resistor
+  - Use on-board USB power
+  - Adapt the pin number
+
++
+
+  # Printing "hello"
+
+  void setup() {
+    Serial.begin(115200);
+  }
+
+  void loop() {
+      Serial.println("hello");
+      delay(500);
+  }
+
++
+
+  # Monitoring output
+
+  - Tools > Serial Monitor
+  - Plug in the M4 boad via USB
+  - Select the baud rate 115200
+  - Or whatever is used in code
+
++
+
+  # Reading a button
+
+  - File > Examples > Basics > 
+    DigitalReadSerial
+  - Search "Arduino Button circuit"
+  - Build circuit on breadboard
+  - Use 10k resistor as pull-down
+  - Or no resistor, INPUT_PULLUP
+  - Adapt the pin number
+
++
+
+  # Reading an LDR
+
+  - File > Examples > Basics > 
+    AnalogReadSerial
+  - Search "Arduino LDR circuit"
+  - Build circuit on breadboard,
+    use 10k resistor
+  - Adapt the pin number
+
++
+
+  # Making a dial
+
+  - File > Examples > Basics >
+    AnalogReadSerial
+  - Search "Arduino Poti circuit"
+  - Build circuit on breadboard,
+    use 10k resistor
+  - Adapt the pin number
+  - Use the map() function => 0-9
+
++
++

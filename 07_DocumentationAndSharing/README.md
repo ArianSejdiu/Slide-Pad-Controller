@@ -1,0 +1,63 @@
+# Physical Computing
+
+## Documentation & Sharing
+<img src="https://live.staticflickr.com/65535/54758010076_5ff176fcb0_z.jpg" width="540" title="CC BY-SA 4.0 @tamberg" alt="Neatly arranged parts, to be assembled"/><br/>
+_Neatly arranged parts, to be assembled_
+
+### Contents
+- [Motivation](#Motivation)
+- [Basics](#Basics)
+- [Advanced](#Advanced)
+- [Materials](#Materials)
+- [Tools](#Tools)
+- [Skills](#Skills)
+- [Resources](#Resources)
+
+### Motivation
+- [GaudiLabs projects](https://www.gaudi.ch/GaudiLabs/?page_id=19) on their blog
+- [Hackteria projects](https://www.hackteria.org/wiki/Collection_of_DIY_Biology,_Open_Source_Art_Projects) on their wiki
+- [Kobakant's projects](https://www.kobakant.at/DIY/) on their blog
+- [OpenFlexure microscope](https://openflexure.org/projects/microscope/) on their website
+- [@tamberg's projects](https://www.instructables.com/member/tamberg/) on Instructables
+
+### Basics
+- Creating a project repo
+- Writing a helpful tutorial
+- Taking usable pictures
+- Licensing source code
+
+### Advanced
+- Licensing photos, designs, etc.
+- Licensing open source hardware
+- Hosting your own blog/website
+- Selling your hardware/product
+
+### Materials
+- Git repos
+- Web pages
+- Web shops
+- Platforms
+
+### Tools
+- Your computer
+- Your smartphone
+- https://zine-creator.com
+
+### Skills
+- [ ] Documenting your work
+- [ ] Using existing works
+- [ ] Sharing your work
+
+### Resources
+- [Phycom07DocumentationAndSharing.txt](https://github.com/tamberg/fhnw-phycom/blob/main/07_DocumentationAndSharing/Phycom07DocumentationAndSharing.txt)
+- [Open source definition](https://opensource.org/osd)
+- [Choose a license](https://choosealicense.com) for source code
+- [Creative Commons](https://creativecommons.org/cc-licenses/) licenses
+- [Open source hardware 101](https://oshwa.org/oshw-101/)
+- [CERN OHL](https://cern-ohl.web.cern.ch) license
+- [CC Wiki image attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution#Attributing_an_image) tipps
+- [W3C WAI image alt text](https://www.w3.org/WAI/tutorials/images/) tutorial
+
+
+
+

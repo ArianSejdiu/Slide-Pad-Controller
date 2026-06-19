@@ -1,0 +1,136 @@
+# Physical Computing
+## Syllabus & Overview
+Also available as [.pdf](Phycom00SyllabusAndOverview.pdf) and [.txt](Phycom00SyllabusAndOverview.txt)
+
+### Contents
+
+- [Description](#description)
+- [Language](#language)
+- [Credits](#credits)
+- [Date](#date)
+- [Time](#time)
+- [Location](#location)
+- [Presence](#presence)
+- [Absence](#absence)
+- [Conduct](#conduct)
+- [Program](#program)
+- [Specials](#specials)
+- [Topics](#topics)
+- [Structure](#structure)
+- [Materials](#materials)
+- [Audience](#audience)
+- [Contact](#contact)
+
+### Description
+- Module [phycom](https://www.fhnw.ch/de/studium/module/9880131)
+
+### Language
+- Inputs in class are in German (DE).
+- Course materials are in English (EN).
+- Your contribution can be in DE or EN.
+
+### Credits
+- 3 ECTS, 2 * 5 days, 8 + 1 hours a day.
+- Presence, active participation.
+- DIY-project, teams of 2.
+- Pass/fail, no grades.
+    
+### Date
+- Week 1, KW24, 08.06. - 12.06.2026.
+- Week 2, KW25, 15.06. - 19.06.2026.
+
+### Time
+- 09:15 - 12:00, 3 hours in the morning.
+- 13:15 - 18:00, 5 hours in the afternoon.
+- 15 minute breaks, roughly once an hour.
+
+### Location
+- Input, usually at the classroom, Room 4.515
+- Making, usually at the makerspace, Room 4.125
+
+### Presence
+> Students are expected to be present for the entire two weeks.
+
+- The course consists of inputs and hands-on making sessions.
+- We will use specific tools available in a typical makerspace.
+- We count on you all to share your experience/perspective.
+
+### Absence
+- Max 3 "joker" hours.
+- Have a good reason.
+- Ask us in advance.
+- Get confirmation.
+- Make up for it.
+
+### Conduct
+> Be excellent to each other.
+
+- Actively participate.
+- Ask for / offer help.
+- Respect boundaries.
+
+### Program
+#### Week 1
+Day|Input|Making
+:---|:---|:---
+Mon|Intro & DIY-Electronics|Soldering
+Tue|Embedded Programming|Tinkering
+Wed|Design & Ideation|Prototyping
+Thu|Digital Fabrication in 2D|Laser-cutting
+Fri|Digital Fabrication in 3D|3D-printing
+
+#### Week 2
+Day|Input|Making
+:---|:---|:---
+Mon|PCB-Layout|Production
+Tue|Documentation & Sharing|Exploring
+Wed|DIY-Project Kick-off|Working
+Thu|DIY-Project Inputs|Working
+Fri|DIY-Project Inputs|Presenting
+
+#### Specials
+> At HTU, all participants are welcome.
+
+- Week 1, Mon, 07:45, welcome coffee.
+- Week 1, Fri, 12:00, free/open lunch.
+- Week 2, Fri, 16 - 18:00, grill party.
+
+[Register here](https://forms.cloud.microsoft/e/gDkt6tGKEf).
+
+### Topics
+The course covers these topics.
+
+0. [Syllabus & Overview](../00_SyllabusAndOverview/README.md)
+1. [DIY-Electronics & Soldering](../01_DIYElectronicsAndSoldering/README.md)
+2. [Embedded Programming](../02_EmbeddedProgramming/README.md)
+3. [Ideation & Prototyping](../03_IdeationAndPrototyping/README.md)
+4. [Digital Fabrication in 2D](../04_DigitalFabricationIn2D/README.md)
+5. [Digital Fabrication in 3D](../05_DigitalFabricationIn3D/README.md)
+6. [PCB-Layout & Production](../06_PCBLayoutAndProduction/README.md)
+7. [Documentation & Sharing](../07_DocumentationAndSharing/README.md)
+8. [DIY-Project & Presentation](../08_DIYProjectAndPresentation/README.md)
+
+### Structure
+Each topic follows this structure.
+
+- Motivation — why this topic is relevant, illustrated with examples.
+- Basics — what you have to know to get started, important concepts.
+- Advanced — what brings you further, once you learned the basics.
+- Materials — which materials we provide to complete hands-on tasks.
+- Tools — which tools you can use to get some hands-on experience.
+- Skills — what you can learn by doing it yourself and with others.
+- Resources — where you find additional, high quality information.
+
+### Materials
+
+- [Template repo](https://github.com/tamberg/fhnw-phycom), as a starting point
+- Box of tools per team, to be returned
+- Making materials, to be used responsibly
+
+### Audience
+- This course can be attended by students from both, [HSI](https://fhnw.ch/hsi) and [HTU](https://fhnw.ch/htu).
+- Basic knowledge of either programming or electronics might help.
+- If you are not sure if this course is for you, consider contacting us.
+
+### Contact
+- Contact us via MS Teams or email thomas.amberg@fhnw.ch.

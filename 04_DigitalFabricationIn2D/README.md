@@ -1,0 +1,67 @@
+# Physical Computing
+
+## Digital Fabrication in 2D
+<img src="https://live.staticflickr.com/65535/52764061807_3136e4c4b0_z.jpg" width="540" title="CC BY-SA 4.0 @tamberg" alt="Laser-cut panel with arcade buttons"/><br/>
+_Laser-cut panel with arcade buttons_
+
+### Contents
+- [Motivation](#Motivation)
+- [Basics](#Basics)
+- [Advanced](#Advanced)
+- [Materials](#Materials)
+- [Tools](#Tools)
+- [Skills](#Skills)
+- [Resources](#Resources)
+
+### Motivation
+- [Generic lab equipment](https://www.gaudi.ch/GaudiLabs/?page_id=328) designs, by GaudiLabs
+- [Cardboard robot](https://cholinska.com/karton-roboter-workshop/) design, by Cho Linska
+- [Button panel](https://www.thingiverse.com/thing:5933117) design, by @tamberg
+- [NICs map](https://github.com/tamberg/nics/tree/main) project, by @tamberg
+
+### Basics
+- 2D design (SVG, DXF, PDF, ...)
+- Cutting
+- Engraving
+
+### Advanced
+- Designing bends
+- Parametric design
+- Laser-friendly fonts
+- ...
+
+### Materials
+> Safety: No PVC, fumes are toxic and corrosive!
+
+- Plywood
+- Acrylic
+- ...
+
+### Tools
+> Safety: No unattended laser-cutting, risk of fire!
+
+- 2D CAD software (Inkscape, OpenSCAD, ...)
+- Your computer (Win/Mac/Linux)
+- Online box generator
+- Laser-cutter
+
+### Skills
+- [ ] Design with Inkscape
+- [ ] Preview with OpenSCAD from 3D to 2d, as "projection"
+- [ ] Cut with laser (w/ assistance)
+- [ ] Laser settings, power, speed, cutting, engraving, line "drawing"
+
+### More about Inkscape
+
+
+
+### Resources
+- [Was ist ein FabLab?](http://www.tamberg.org/fablabzurich/2017/WasIstEinFabLab.pdf) slides, by @tamberg
+- [Engraving fonts](https://www.evilmadscientist.com/2011/hershey-text-an-inkscape-extension-for-engraving-fonts/) tutorial, by Windell Oskay
+
+
+
+
+
+
+
